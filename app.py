@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome! (Go with how are you)"
+    return "Welcome! (This is the latest update for pipeline test!!)"
 
 @app.route('/how are you')
 def hello():
@@ -13,3 +13,4 @@ def hello():
 if __name__ == "__main__":
 
     app.run()
+
